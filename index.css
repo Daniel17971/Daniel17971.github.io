@@ -1,4 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css");
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+    margin:0;
+    padding: 0;
+}
+
 h1{
-    color:blue;
-    font-size:80px;
+    font-size: 100px;
+    text-align: center;
+}
+
+nav, .nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 25px;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-content: flex-end;
+
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+section{
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer{
+    background-color: black;
+    border-color: black;
+    padding: 25px;
+    margin:0;
+    border:10px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 16px;
+}
+
+#linkedinIcon{
+    font-size:70px;
+}
+
+#googleIcon{
+    font-size: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#githubIcon{
+    font-size: 50px;
+}
+
+footer>p{
+    text-decoration: underline;
+    text-align: left;
 }
