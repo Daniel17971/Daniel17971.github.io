@@ -109,3 +109,8 @@ img {
   color: antiquewhite;
   border-radius: 3rem;
 }
+
+iframe {
+  width: 70%;
+  height: 1000px;
+}
