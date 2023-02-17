@@ -1,73 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css");
 
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: gainsboro;
-    margin:0;
-    padding: 0;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-size: 100px;
-    text-align: center;
+main {
+  justify-content: center;
+  text-align: center;
 }
 
-nav, .nav{
-    display: flex;
-    background-color: black;
-    color: white;
-    border-color: black;
-    font-size: 25px;
-    padding: 50px;
-    justify-content: space-evenly;
-    align-content: flex-end;
-
+h1 {
+  font-size: 6.5rem;
+  text-align: center;
 }
 
-p{
-    text-align: center;
-    justify-content: center;
+nav,
+.nav {
+  display: flex;
+  font-size: 1.8rem;
+  padding: 2.25rem;
+  justify-content: space-evenly;
+  align-content: flex-end;
 }
 
-section{
-    text-align: center;
-    justify-content: center;
+p {
+  text-align: center;
+  justify-content: center;
 }
 
-
-footer{
-    background-color: black;
-    border-color: black;
-    padding: 25px;
-    margin:0;
-    border:10px;
-}
-.contact{
-    background-color: black;
-    color: white;
-    border-color: black;
-    font-size: 16px;
+section {
+  text-align: center;
+  justify-content: center;
 }
 
-#linkedinIcon{
-    font-size:70px;
+footer {
+  padding: 1.5rem;
+  margin: 0;
+  border: 1rem;
+}
+.contact {
+  background-color: black;
+  color: white;
+  border-color: black;
+  font-size: 1rem;
 }
 
-#googleIcon{
-    font-size: 20px;
+#linkedinIcon {
+  color: white;
+  font-size: 4rem;
 }
 
-a:link{
-    text-decoration: none;
+#googleIcon {
+  color: white;
+  font-size: 3rem;
 }
 
-#githubIcon{
-    font-size: 50px;
+a:link {
+  text-decoration: none;
 }
 
-footer>p{
-    text-decoration: underline;
-    text-align: left;
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#githubIcon {
+  color: white;
+  font-size: 3rem;
+}
+
+footer > p {
+  text-decoration: underline;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  color: antiquewhite;
+}
+
+img {
+  border-radius: 3rem;
+}
+
+.top-5-list {
+  margin: 1rem 30rem;
+  background-color: rgb(115, 0, 61);
+  color: antiquewhite;
+  border-radius: 3rem;
 }
