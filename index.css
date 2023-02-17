@@ -70,6 +70,16 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
 #githubIcon {
   color: white;
   font-size: 3rem;
@@ -98,8 +108,4 @@ img {
   background-color: rgb(115, 0, 61);
   color: antiquewhite;
   border-radius: 3rem;
-}
-
-a {
-  color: black;
 }
